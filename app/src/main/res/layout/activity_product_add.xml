@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".activities.productAddActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imagenes"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/background_profile"/>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_title_name_product_add_activity" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/Description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:hint="@string/hint_title_description_product_add_activity" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/Price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_title_price_product_add_activity" />
+
+
+                </android.support.design.widget.TextInputLayout>
+
+
+                <Button
+                    android:id="@+id/takePhoto"
+                    android:layout_width="204dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_home"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="70dp"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center"
+                    android:onClick="onClick"
+
+                    android:text="@string/button_add_photo_product_add_activity"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/Send"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_padding"
+                        android:layout_weight="1"
+                        android:onClick="onClick"
+                        android:layout_margin="5dp"
+                        android:text="@string/button_send_product_add_activity"
+                        android:drawableBottom="@color/colorPrimaryDark"
+                        android:textColor="@color/colorPrimary" />
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/Cancel"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_padding"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:drawableBottom="@color/colorPrimaryDark"
+                        android:onClick="onClick"
+                        android:text="@string/button_cancel_product_add_activity"
+                        android:textColor="@color/colorPrimary" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

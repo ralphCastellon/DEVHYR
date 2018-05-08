@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">DevHyR</string>
+    <string name="title_home">Home</string>
+    <string name="title_my_products">My products</string>
+    <string name="title_my_profile">Profile</string>
+    <string name="button_edit_profile">Editar Perfil</string>
+    <string name="action_settings">Send a product</string>
+    <string name="nav_logOut">Logout</string>
+    <string name="nav_share">Share</string>
+    <string name="hint_title_name_product_add_activity">Name</string>
+    <string name="hint_title_price_product_add_activity">Price</string>
+    <string name="hint_title_description_product_add_activity">Description</string>
+    <string name="button_add_photo_product_add_activity">Añadir foto</string>
+    <string name="button_send_product_add_activity">Guardar</string>
+    <string name="button_cancel_product_add_activity">Cancel</string>
+    <string name="content_description">image of the product</string>
+    <string name="text_name_profile_fragment">Name</string>
+    <string name="text_products_sell_profile_fragment">Products Sell</string>
+    <string name="text_email_profile_fragment">Email</string>
+    <string name="button_login">INICIAR SESIÓN</string>
+    <string name="button_register">¿No tienes cuenta? REGISTRATE</string>
+    <string name="Edit_Text_Email">Email</string>
+    <string name="Edit_Text_Password">Password</string>
+    <string name="Text_View_Login">LOGIN</string>
+    <string name="Text_tabhost_pas1">Dashboard</string>
+    <string name="Text_tabhost_pas2">My products saved</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment_1">Dashboard</string>
+    <string name="hello_blank_fragment_2">My products saved</string>
+    <string name="button_toolbar_send_create_product">Create Product</string>
+    <string name="tet_edit_profile_name">Nombre</string>
+    <string name="Text_edit_profile_user_name">Nombre de usuario</string>
+    <string name="Text_view_edit_profile_private_information">Otra información</string>
+    <string name="Text_edit_profile_email_address">Correo electronico</string>
+    <string name="Text_edit_profile_phone_number">Número de telefono</string>
+    <string name="text_button_edit_profile_change_photo">Cambiar foto</string>
+    <string name="text_button_buy_info_activity">Comprar</string>
+
+</resources>
